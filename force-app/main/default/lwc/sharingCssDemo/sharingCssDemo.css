@@ -1,0 +1,7 @@
+@import "c/cssLibrary";
+.custom-button{
+     --slds-c-button-brand-color-background: #ff6600; /* orange */
+    --slds-c-button-brand-color-border: #ff6600;
+    --slds-c-button-brand-color-background-hover: #e65c00;
+    --slds-c-button-brand-text-color: white;
+}

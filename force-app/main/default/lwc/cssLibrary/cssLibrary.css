@@ -1,0 +1,16 @@
+h1{
+    font-size: 30px;
+    color: blueviolet;
+}
+.paraclass{
+    font-size: 20px;
+    color: red;
+}
+.list-first{
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
+.list-last{
+    border-bottom:1px solid black ;
+    padding-bottom: 5px;
+}

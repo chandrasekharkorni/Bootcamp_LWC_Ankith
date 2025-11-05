@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="lifecysle hooks">
+        <lightning-input type="checkbox"
+        class="slds-var-p-around_small"
+        label="invoke child"
+        onchange={changehandlar}
+        ></lightning-input>
+          <template if:true={showDisconnectedCallBack}>
+             <c-child-hook></c-child-hook>
+          </template>
+       
+    </lightning-card>
+    
+</template>

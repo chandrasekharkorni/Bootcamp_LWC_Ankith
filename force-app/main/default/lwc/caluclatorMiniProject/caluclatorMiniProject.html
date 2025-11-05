@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title ="Calculator">
+        <lightning-layout multiple-rows>
+            <lightning-layout-item size="6" padding="around-small">
+                 <lightning-input label ="num1"  variant="standard" type ="number" placeholder="type here..." value={firstNum} onchange={handleFirstNum}></lightning-input>
+
+            </lightning-layout-item>
+             <lightning-layout-item size="6" padding="around-small">
+                <lightning-input label ="num2"  variant="standard" type ="number" placeholder="type here..." value={secondNum} onchange={handleSecondNum}></lightning-input>
+
+            </lightning-layout-item>
+
+        </lightning-layout>
+        <lightning-button-group class="slds-align_absolute-center">
+            <lightning-button label="addition" onclick={handleAdd} ></lightning-button>
+            <lightning-button label="subtraction" onclick={handleSub} ></lightning-button>
+            <lightning-button label="multiplication"  onclick={handleMul}></lightning-button>
+            <lightning-button label="division"  onclick={handleDiv}></lightning-button>
+        </lightning-button-group>
+        <lightning-button label="Reset" onclick={handleReset} variant="destructive"></lightning-button>
+        <template lwc:if={diplayoutput}>
+        <div class ="slds-var-m-around_medium">
+            Output : {result}
+        </div>
+        </template>
+        </lightning-card>
+       
+       
+    
+</template>

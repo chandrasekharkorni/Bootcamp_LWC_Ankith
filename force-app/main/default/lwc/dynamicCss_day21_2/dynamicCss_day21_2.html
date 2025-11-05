@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="dynamic css" icon-name="custom:custom14">
+        <div class="slds-var-m-around_medium">
+        <p class={pcolour}>welcome to salesforec bootcamp</p>
+        </div>
+        <lightning-button 
+        label="addCss"
+        variant="brand"
+        onclick={addCssHandlar}
+        class="slds-var-p-around_small"
+        >
+        </lightning-button>
+        <lightning-button 
+        label="removeCss"
+        variant="brand"
+        onclick={removeCssHandlar}
+        class="slds-var-p-around_small"
+        >
+        </lightning-button>
+        <lightning-button 
+        label="toggleCss"
+        variant="brand"
+        onclick={toggleCssHandlar}
+        class="slds-var-p-around_small"
+        >
+        </lightning-button>
+    </lightning-card>
+    
+</template>
