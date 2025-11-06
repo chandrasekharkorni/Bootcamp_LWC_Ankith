@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"name": "Bootcamp_LWC_Ankith",
+			"path": "../../../../../Bootcamp_LWC_Ankith"
+		}
+	],
+	"settings": {
+		"xml.preferences.showSchemaDocumentationType": "none"
+	}
+}
